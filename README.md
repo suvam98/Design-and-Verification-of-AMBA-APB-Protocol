@@ -31,6 +31,15 @@
  ## Design principles
  An important aspect of an SoC is not only which components or blocks it houses, but also how they interconnect. AMBA is a solution for the blocks to interface with each other.
 
+ The objective of the AMBA specification is to:
+
+    - facilitate right-first-time development of embedded microcontroller products with one or more CPUs, GPUs or signal processors,
+    - be technology independent, to allow reuse of IP cores, peripheral and system macrocells across diverse IC processes,
+
+    - encourage modular system design to improve processor independence, and the development of reusable peripheral and system IP libraries
+    
+    - minimize silicon infrastructure while supporting high performance and low power on-chip communication.
+
 
  - The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture
 (AMBA) protocol family. It defines a low-cost interface that is optimized for minimal power
