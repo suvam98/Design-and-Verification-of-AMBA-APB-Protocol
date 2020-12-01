@@ -33,12 +33,12 @@
 
  The objective of the AMBA specification is to:
 
-    - facilitate right-first-time development of embedded microcontroller products with one or more CPUs, GPUs or signal processors,
-    - be technology independent, to allow reuse of IP cores, peripheral and system macrocells across diverse IC processes,
+   - facilitate right-first-time development of embedded microcontroller products with one or more CPUs, GPUs or signal processors,
+   - be technology independent, to allow reuse of IP cores, peripheral and system macrocells across diverse IC processes,
 
-    - encourage modular system design to improve processor independence, and the development of reusable peripheral and system IP libraries
-    
-    - minimize silicon infrastructure while supporting high performance and low power on-chip communication.
+   - encourage modular system design to improve processor independence, and the development of reusable peripheral and system IP libraries
+
+   - minimize silicon infrastructure while supporting high performance and low power on-chip communication.
 
 
  - The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture
