@@ -54,7 +54,7 @@
  - Advanced trace bus (ATB)
 
  ### AMBA AHB
-Advanced High performance bus (AHB) is made for address the requirements of high-performance synthesizable designs. AMBA AHB is a new level of bus for the APB and implements the features high clock frequency systems including:
+ Advanced High performance bus (AHB) is made for address the requirements of high-performance synthesizable designs. AMBA AHB is a new level of bus for the APB and implements the features high clock frequency systems including:
 
  - burst transfers
  - split transactions
