@@ -5,7 +5,7 @@
  - [Design principles](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-principles)
  - [AMBA Bus specification](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-bus--specification)
    * [Types of AMBA Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#types-of-amba-bus)
-   * [AMBA AHB]()
+   * [AMBA AHB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-ahb)
    * [AMBA ASB]()
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
