@@ -3,7 +3,7 @@
 ## Table of Content
  - [Introduction of AMBA](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
  - [Design principles](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-principles)
- - [AMBA Bus architecture]
+ - [AMBA Bus architecture](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-bus-architecture)
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
  - Simulation result of APB design
@@ -33,7 +33,7 @@
 
  ## AMBA Bus architecture
 
- 
+
 
  
 
