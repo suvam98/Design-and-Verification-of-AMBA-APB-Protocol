@@ -66,3 +66,6 @@
  - The APB protocol is not pipelined, use it to connect to low-bandwidth peripherals that do not require the high performance of the AXI protocol.
  - The APB protocol relates a signal transition to the rising edge of the clock, to simplify the integration of APB peripherals into any design flow. Every transfer takes at least two cycles.
  - The APB can interface with the AMBA Advanced High-performance Bus Lite (AHB-Lite) and AMBA Advanced Extensible Interface (AXI). You can use it to provide access to the programmable control registers of peripheral devices. 
+ - The AMBA APB appears as a local secondary bus that is encapsulated as a single AHB or ASB slave device.
+ -  APB protocol uses massive memory-I/O accesses.
+ - In APB protocol consist of single master device and multiple slave device.
