@@ -1,7 +1,7 @@
 # Design-Verification-of-AMBA-APB-Protocol
 
 ## Table of Content
- - Introduction of AMBA[Introduction of AMBA]
+ - [Introduction of AMBA](#https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
  - AMBA Bus architecture
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
@@ -12,7 +12,7 @@
 
  ## Introduction of AMBA
  - The Advanced Micro controller Bus Architecture (AMBA) bus protocols is a set of interconnect specifications from ARM that standardizes on chip communication mechanisms between various functional blocks (or IP) for building high performance SOC design.
- 
+
  - These designs typically have one or more micro controllers or microprocessors along with several other components — internal memory or external memory bridge, DSP, DMA, accelerators and various other peripherals like USB, UART, PCIE, I2C etc — all integrated on a single chip.  
 
  - Today, AMBA is widely used on a range of ASIC and SoC parts including applications processors used in modern portable mobile devices like smartphones. 
