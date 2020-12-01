@@ -5,6 +5,8 @@
  - [Design principles](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-principles)
  - [AMBA Bus specification](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-bus--specification)
    * [Types of AMBA Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#types-of-amba-bus)
+   * [AMBA AHB]()
+   * [AMBA ASB]()
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
  - Simulation result of APB design
@@ -50,6 +52,15 @@
  - Advanced high-performance bus (AHB)
  - Advanced extensible interface (AXI)
  - Advanced trace bus (ATB)
+
+ ### AMBA AHB
+
+Advanced High performance bus (AHB) is made for address the requirements of high-performance synthesizable designs. AMBA AHB is a new level of bus for the APB and implements the features high clock frequency systems including:
+ - burst transfers
+ - split transactions
+ - Single cycle bus master handover
+ - Single clock edge operation
+ - Wider data bus configurations (64/128 bits).
  
 
 
