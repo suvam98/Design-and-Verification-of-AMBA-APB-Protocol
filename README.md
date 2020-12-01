@@ -2,6 +2,7 @@
 
 ## Table of Content
  - [Introduction of AMBA](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
+ - [Design principles]
  - AMBA Bus architecture
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
@@ -9,7 +10,7 @@
  - Conclusion
  - Acknowledgement
  - References
-
+ 
  ## Introduction of AMBA
  - The Advanced Micro controller Bus Architecture (AMBA) bus protocols is a set of interconnect specifications from ARM that standardizes on chip communication mechanisms between various functional blocks (or IP) for building high performance SOC design.
 
@@ -26,6 +27,9 @@
  In 2010 the AMBA 4 specifications were introduced starting with AMBA 4 AXI4, then in 2011[2] extending system-wide coherency with AMBA 4 AXI Coherency Extensions (ACE). 
 
  In 2013[3] the AMBA 5 Coherent Hub Interface (CHI) specification was introduced, with a re-designed high-speed transport layer and features designed to reduce congestion.
+
+ ## Design principles
+ An important aspect of an SoC is not only which components or blocks it houses, but also how they interconnect. AMBA is a solution for the blocks to interface with each other.
 
 
  - The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture
