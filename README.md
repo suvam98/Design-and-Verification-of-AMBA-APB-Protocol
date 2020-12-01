@@ -97,10 +97,10 @@
 ## Design and operating states of APB
 
 
-## Write operation
+### Write operation
 
 
-## Write operation
+### Write operation
  
 
  
