@@ -3,7 +3,7 @@
 ## Table of Content
  - [Introduction of AMBA](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
  - [Design principles](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-principles)
- - [AMBA Bus architecture](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-bus-architecture)
+ - [AMBA Bus  specification](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-bus- specification)
    * [Types of AMBA Bus]()
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
@@ -32,11 +32,15 @@
  ## Design principles
  An important aspect of an SoC is not only which components or blocks it houses, but also how they interconnect. AMBA is a solution for the blocks to interface with each other.
 
- ## AMBA Bus architecture
+ ## AMBA Bus  specification
  - An AMBA-based microcontroller typically consists of a high-performance system backbone bus (AMBA AHB or AMBA ASB), able to sustain the external memory bandwidth, on which the CPU, on-chip memory and other Direct Memory Access (DMA) devices reside. 
  - This bus provides a high-bandwidth interface between the elements that are involved in the majority of transfers. Also located on the highperformance bus is a bridge to the lower bandwidth APB, where most of the peripheral devices in the system are located (see figure).
 
  ![Untitled](https://user-images.githubusercontent.com/69890373/100754414-149f3a80-3411-11eb-98c5-e37e8dae5241.png)
+
+ - AMBA is development of embedded microcontroller products with one or more CPUs or signal processors.
+ - This is highly reusable peripheral appropriate for full-custom, standard cell and gate array technologies.
+ - It provides a road-map for advanced cached CPU cores and the development of peripheral libraries to minimize the silicon infrastructure required to support efficient on-chip.
 
  ### Types of AMBA Bus
  Five interfaces are defined within the AMBA specification:
