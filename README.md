@@ -4,6 +4,7 @@
  - [Introduction of AMBA](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
  - [Design principles](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-principles)
  - [AMBA Bus architecture](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-bus-architecture)
+   * [Types of AMBA Bus]()
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
  - Simulation result of APB design
@@ -36,6 +37,15 @@
  - This bus provides a high-bandwidth interface between the elements that are involved in the majority of transfers. Also located on the highperformance bus is a bridge to the lower bandwidth APB, where most of the peripheral devices in the system are located (see figure).
 
  ![Untitled](https://user-images.githubusercontent.com/69890373/100754414-149f3a80-3411-11eb-98c5-e37e8dae5241.png)
+
+ ### Types of AMBA Bus
+ Five interfaces are defined within the AMBA specification:
+
+ - Advanced system bus (ASB)
+ - Advanced peripheral bus (APB)
+ - Advanced high-performance bus (AHB)
+ - Advanced extensible interface (AXI)
+ - Advanced trace bus (ATB)
  
 
 
