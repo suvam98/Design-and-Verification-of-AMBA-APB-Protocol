@@ -7,6 +7,7 @@
    * [Types of AMBA Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#types-of-amba-bus)
    * [AMBA AHB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-ahb)
    * [AMBA ASB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-asb)
+ - [Advance Peripheral Bus]  
  
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
@@ -59,21 +60,8 @@
  ### AMBA ASB
  The Advanced System Bus (ASB) specification defines a high-performance bus that can be used in the design of high performance 16 and 32-bit embedded microcontrollers. It supports the efficient connection of processors, on-chip memories and off chip external memory interfaces with low-power peripheral macro cell functions. The bus also provides the test infrastructure for modular macro cell test and diagnostic access. 
  
- ### AMBA APB
-
- 
-
-
-
-
-
-
-
- - The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture
-(AMBA) protocol family. It defines a low-cost interface that is optimized for minimal power
-consumption and reduced interface complexity.
-- The APB protocol is not pipelined, use it to connect to low-bandwidth peripherals that do not
-require the high performance of the AXI protocol.
-- The APB protocol relates a signal transition to the rising edge of the clock, to simplify the
-integration of APB peripherals into any design flow. Every transfer takes at least two cycles.
-- 
+ ## Advance Peripheral Bus
+ - Advanced Peripheral Bus (APB) is the part of Advanced Microcontroller Bus Architecture (AMBA) family protocols. 
+ - It defines a low-cost interface that is optimized for minimal power consumption and reduced interface complexity.
+ - The APB protocol is not pipelined, use it to connect to low-bandwidth peripherals that do not require the high performance of the AXI protocol.
+ - The APB protocol relates a signal transition to the rising edge of the clock, to simplify the integration of APB peripherals into any design flow. Every transfer takes at least two cycles. 
