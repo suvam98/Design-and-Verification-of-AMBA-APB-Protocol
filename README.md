@@ -32,7 +32,7 @@
  - An AMBA-based microcontroller typically consists of a high-performance system backbone bus (AMBA AHB or AMBA ASB), able to sustain the external memory bandwidth, on which the CPU, on-chip memory and other Direct Memory Access (DMA) devices reside. 
  - This bus provides a high-bandwidth interface between the elements that are involved in the majority of transfers. Also located on the highperformance bus is a bridge to the lower bandwidth APB, where most of the peripheral devices in the system are located (see figure).
 
-        ![Untitled](https://user-images.githubusercontent.com/69890373/100754414-149f3a80-3411-11eb-98c5-e37e8dae5241.png)
+       ![Untitled](https://user-images.githubusercontent.com/69890373/100754414-149f3a80-3411-11eb-98c5-e37e8dae5241.png)
 
  - AMBA is development of embedded microcontroller products with one or more CPUs or signal processors.
  - This is highly reusable peripheral appropriate for full-custom, standard cell and gate array technologies.
