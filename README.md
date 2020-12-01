@@ -32,10 +32,17 @@
  An important aspect of an SoC is not only which components or blocks it houses, but also how they interconnect. AMBA is a solution for the blocks to interface with each other.
 
  ## AMBA Bus architecture
+ - An AMBA-based microcontroller typically consists of a high-performance system backbone bus (AMBA AHB or AMBA ASB), able to sustain the external memory bandwidth, on which the CPU, on-chip memory and other Direct Memory Access (DMA) devices reside. 
+ - This bus provides a high-bandwidth interface between the elements that are involved in the majority of transfers. Also located on the highperformance bus is a bridge to the lower bandwidth APB, where most of the peripheral devices in the system are located 
 
 
 
  
+
+
+
+
+
 
 
  - The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture
