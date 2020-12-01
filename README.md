@@ -7,7 +7,9 @@
    * [Types of AMBA Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#types-of-amba-bus)
    * [AMBA AHB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-ahb)
    * [AMBA ASB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-asb)
- - [Advance Peripheral Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#advance-peripheral-bus)  
+ - [Advance Peripheral Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#advance-peripheral-bus)
+   * [APB Block Diagram]()
+   * [Signal Descriptions of APB]()  
  
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
@@ -69,3 +71,12 @@
  - The AMBA APB appears as a local secondary bus that is encapsulated as a single AHB or ASB slave device.
  -  APB protocol uses massive memory-I/O accesses.
  - In APB protocol consist of single master device and multiple slave device.
+
+ ### APB Block Diagram
+
+ ![Img2](https://user-images.githubusercontent.com/69890373/100778984-b6cd1b80-342d-11eb-9816-2fda2fc16dff.png)
+
+ ### Signal Descriptions of APB
+
+ 
+
