@@ -62,7 +62,8 @@
  - Single clock edge operation
  - Wider data bus configurations (64/128 bits)
  
-
+ ### AMBA ASB
+ The Advanced System Bus (ASB) specification defines a high-performance bus that can be used in the design of high performance 16 and 32-bit embedded microcontrollers. It supports the efficient connection of processors, on-chip memories and off chip external memory interfaces with low-power peripheral macro cell functions. The bus also provides the test infrastructure for modular macro cell test and diagnostic access. 
 
 
  
