@@ -9,7 +9,10 @@
    * [AMBA ASB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-asb)
  - [Advance Peripheral Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#advance-peripheral-bus)
    * [APB Block Diagram](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#apb-block-diagram)
-   * [Signal Descriptions of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#signal-descriptions-of-apb)  
+   * [Signal Descriptions of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#signal-descriptions-of-apb) 
+ - [Design and operating states of APB]()
+   * [Write operation]()
+   * [Read operation]()   
  
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
@@ -91,7 +94,13 @@
  | **PRDATA** | Slave interface | Read Data. The selected slave drives this bus during read cycles when **PWRITE** is LOW. This bus can be up to 32-bits wide. |
  | **PSLVERR** | Slave interface | This signal indicates a transfer failure. APB peripherals are not required to support the **PSLVERR** pin. This is true for both existing and new APB peripheral designs. Where a peripheral does not include this pin then the appropriate input to the APB bridge is tied LOW. |
 
+## Design and operating states of APB
 
+
+## Write operation
+
+
+## Write operation
  
 
  
