@@ -60,7 +60,7 @@
  - split transactions
  - Single cycle bus master handover
  - Single clock edge operation
- - Wider data bus configurations (64/128 bits).
+ - Wider data bus configurations (64/128 bits)
  
 
 
