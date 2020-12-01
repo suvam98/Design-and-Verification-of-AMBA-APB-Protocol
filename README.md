@@ -10,9 +10,9 @@
  - [Advance Peripheral Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#advance-peripheral-bus)
    * [APB Block Diagram](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#apb-block-diagram)
    * [Signal Descriptions of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#signal-descriptions-of-apb) 
- - [Design and operating states of APB]()
-   * [Write operation]()
-   * [Read operation]()   
+ - [Design and operating states of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-and-operating-states-of-apb)
+   * [Write operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation)
+   * [Read operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation-1)   
  
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
