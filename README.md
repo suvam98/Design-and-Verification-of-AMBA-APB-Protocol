@@ -82,8 +82,8 @@
  | --- | --- | --- |
  | **PCLK** | Clock source | Clock. The rising edge of **PCLK** times all transfers on the APB. |
  | **PSELn** | APB bridge | Select. The APB bridge unit generates this signal to each peripheral bus slave.
-It indicates that the slave device is selected and that a data transfer is required.
-There is a **PSELn** signal for each slave. |
+ It indicates that the slave device is selected and that a data transfer is required.
+ There is a **PSELn** signal for each slave. |
  | **PRESET** | System bus equivalent | Reset. The APB reset signal is active LOW. This signal is normally connected
 directly to the system bus reset signal. |
  | **PADDR** | APB bridge | Address. This is the APB address bus. It can be up to 32 bits wide and is driven
