@@ -3,7 +3,7 @@
 ## Table of Content
  - [Introduction of AMBA](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
  - [Design principles](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-principles)
- - AMBA Bus architecture
+ - [AMBA Bus architecture]
  - Advance Peripheral Bus(APB)
  - Design and Operating states of APB
  - Simulation result of APB design
@@ -12,7 +12,7 @@
  - References
  
  ## Introduction of AMBA
- - The Advanced Micro controller Bus Architecture (AMBA) bus protocols is a set of interconnect specifications from ARM that standardizes on chip communication mechanisms between various functional blocks (or IP) for building high performance SOC design.
+ - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
 
  - These designs typically have one or more micro controllers or microprocessors along with several other components — internal memory or external memory bridge, DSP, DMA, accelerators and various other peripherals like USB, UART, PCIE, I2C etc — all integrated on a single chip.  
 
@@ -31,14 +31,11 @@
  ## Design principles
  An important aspect of an SoC is not only which components or blocks it houses, but also how they interconnect. AMBA is a solution for the blocks to interface with each other.
 
- The objective of the AMBA specification is to:
+ ## AMBA Bus architecture
 
-   - facilitate right-first-time development of embedded microcontroller products with one or more CPUs, GPUs or signal processors,
-   - be technology independent, to allow reuse of IP cores, peripheral and system macrocells across diverse IC processes,
+ 
 
-   - encourage modular system design to improve processor independence, and the development of reusable peripheral and system IP libraries
-
-   - minimize silicon infrastructure while supporting high performance and low power on-chip communication.
+ 
 
 
  - The Advanced Peripheral Bus (APB) is part of the Advanced Microcontroller Bus Architecture
