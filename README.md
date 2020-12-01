@@ -12,8 +12,9 @@
 
  ## Introduction of AMBA
  - The Advanced Micro controller Bus Architecture (AMBA) bus protocols is a set of interconnect specifications from ARM that standardizes on chip communication mechanisms between various functional blocks (or IP) for building high performance SOC design.
+ 
  - These designs typically have one or more micro controllers or microprocessors along with several other components — internal memory or external memory bridge, DSP, DMA, accelerators and various other peripherals like USB, UART, PCIE, I2C etc — all integrated on a single chip.  
- - It facilitates development of multi-processor designs with large numbers of controllers and components with a bus architecture. Since its inception, the scope of AMBA has, despite its name, gone far beyond microcontroller devices. 
+
  - Today, AMBA is widely used on a range of ASIC and SoC parts including applications processors used in modern portable mobile devices like smartphones. 
 
  AMBA was introduced by ARM in 1996. The first AMBA buses were the Advanced System Bus (ASB) and the Advanced Peripheral Bus (APB). 
