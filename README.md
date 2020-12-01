@@ -77,6 +77,11 @@
  ![Img2](https://user-images.githubusercontent.com/69890373/100778984-b6cd1b80-342d-11eb-9816-2fda2fc16dff.png)
 
  ### Signal Descriptions of APB
+ | Signal | Source | Description |
+ | --- | --- | --- |
+ | PCLK | Clock source | Clock. The rising edge of PCLK times all transfers on the APB. |
+
+ 
 
  
 
