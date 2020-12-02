@@ -143,6 +143,7 @@
 - Mr. Santunu Sarangi, Assistant Professor, Silicon Institute of Technology, Bhubaneswar
 
 ## References
+
 [1]URL:[click here](http://wwwmicro.deis.unibo.it/~magagni/amba99.pdf)
 [2]ARM, “AMBA Specification Overview”, available at [URL](http://www.arm.com/)
 [3]ARM, “AMBA Specification (Rev 2.0)”, available at [URL](http://www.arm.com)
