@@ -26,7 +26,6 @@ module AMBA_APB_tb;
     PENABLE=0;
     PRESET=1;
   end
-  
   always #5 PCLK=~PCLK;
   
   initial begin
