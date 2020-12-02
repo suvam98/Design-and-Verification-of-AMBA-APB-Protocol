@@ -1,4 +1,4 @@
-# Design and-Verification-of-AMBA-APB-Protocol
+# Design and Verification of AMBA APB Protocol
 
 ## Table of Content
  - [Introduction of AMBA](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
