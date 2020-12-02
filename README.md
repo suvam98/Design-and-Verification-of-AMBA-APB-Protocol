@@ -1,4 +1,4 @@
-# Design-Verification-of-AMBA-APB-Protocol
+# Design-and-Verification-of-AMBA-APB-Protocol
 
 ## Table of Content
  - [Introduction of AMBA](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#introduction-of-amba)
@@ -118,7 +118,7 @@
 - The PADDR, PWDATA, and control signals all remain valid until the transfer completes at T3, the end of the Access phase.
 - The PENABLE, is disabled at the end of the transfer. The select signal PSEL is also disabled unless the transfer is to be followed immediately by another transfer to the same peripheral.
 
-### Write operation
+### Read operation
 
 ![image](https://user-images.githubusercontent.com/69890373/100842327-b0c35300-349e-11eb-9592-4c23aad06403.png)
 
