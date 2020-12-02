@@ -96,6 +96,15 @@
 
 ## Design and operating states of APB
 
+![Img3](https://user-images.githubusercontent.com/69890373/100839325-0a754e80-349a-11eb-862c-79a6a0d62c84.png)
+
+- **IDLE** is the normal state of the APB. When a transfer is necessary the bus relocates into the SETUP state, where the suitable select signal, **PSELn**, is asserted.
+- The bus only waits in the SETUP state for one clock cycle and always moves to the ACCESS state on the next rising edge of the clock.
+- **ACCESS** will enable signal, **PENABLE**, is asserted in the ACCESS state.
+- The write, write data signals, select, and address must remain stable during the transition from the SETUP to ACCESS state. 
+-  ACCESS state is controls when to exit by the **PREADY** signal from the slave.
+- These are the conditions one is if **PREADY** is held LOW by the slave then the peripheral bus remains in the ACCESS state another is **PREADY** is driven HIGH by the slave then the ACCESS state is exited and the bus returns to the IDLE state if no more transfers are required after that it will start the same cycle.   
+
 
 ### Write operation
 
