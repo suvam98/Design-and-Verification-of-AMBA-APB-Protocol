@@ -12,7 +12,8 @@
    * [Signal Descriptions of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#signal-descriptions-of-apb) 
  - [Design and operating states of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-and-operating-states-of-apb)
    * [Write operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation)
-   * [Read operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation-1)   
+   * [Read operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation-1)
+ - [Simulation result]()     
  
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
@@ -120,6 +121,8 @@
 
 - During read operation the PENABLE, PSEL, PADDR PWRITE, signals are asserted at the clock edge T1 (SETUP cycle). 
 - At the clock edge T2, (ACCESS cycle), the PENABLE, PREADY are asserted and PRDATA is also read during this phase. The slave must provide the data before the end of the read transfer.
+
+## Simulation result
  
 
  
