@@ -103,13 +103,23 @@
 - **ACCESS** will enable signal, **PENABLE**, is asserted in the ACCESS state.
 - The write, write data signals, select, and address must remain stable during the transition from the SETUP to ACCESS state. 
 -  ACCESS state is controls when to exit by the **PREADY** signal from the slave.
-- These are the conditions one is if **PREADY** is held LOW by the slave then the peripheral bus remains in the ACCESS state another is **PREADY** is driven HIGH by the slave then the ACCESS state is exited and the bus returns to the IDLE state if no more transfers are required after that it will start the same cycle.   
+- These are the conditions one is if **PREADY** is held LOW by the slave then the peripheral bus remains in the ACCESS state another is **PREADY** is driven HIGH by the slave then the ACCESS state is exited and the bus returns to the IDLE state if no more transfers are required after that it will start the same cycle.
+   
+### Write operation
 
+![image](https://user-images.githubusercontent.com/69890373/100841560-74dbbe00-349d-11eb-9c17-ea28fddd68f2.png)
+
+- At T1, a write transfer starts with PADDR, PWDATA, PWRITE, and PSEL, being registered at the rising edge of PCLK. It is called the SETUP cycle. 
+- At the next rising edge of the clock T2 it is called ACCESS cycle, PENABLE, and PREADY, are registered. When asserted, PENABLE indicates starting of Access phase of the transfer. When asserted, PREADY indicates that the slave can complete the transfer at the next rising edge of PCLK. 
+- The PADDR, PWDATA, and control signals all remain valid until the transfer completes at T3, the end of the Access phase.
+- The PENABLE, is disabled at the end of the transfer. The select signal PSEL is also disabled unless the transfer is to be followed immediately by another transfer to the same peripheral.
 
 ### Write operation
 
+![image](https://user-images.githubusercontent.com/69890373/100842327-b0c35300-349e-11eb-9592-4c23aad06403.png)
 
-### Write operation
+- During read operation the PENABLE, PSEL, PADDR PWRITE, signals are asserted at the clock edge T1 (SETUP cycle). 
+- At the clock edge T2, (ACCESS cycle), the PENABLE, PREADY are asserted and PRDATA is also read during this phase. The slave must provide the data before the end of the read transfer.
  
 
  
