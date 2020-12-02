@@ -126,6 +126,10 @@
 
 ![image](https://user-images.githubusercontent.com/69890373/100843927-16184380-34a1-11eb-9252-f88b465c880e.png)
 
+## Conclusion
+- The APB bus is designed using the Verilog HDL according to the specification and is verified using EDAplayground. 
+- The simulation results show that the data read from a  particular memory location is same as the data written to the given memory location. Hence, the design is functionally correct.
+
  
 
  
