@@ -144,7 +144,6 @@
 
 ## References
 [1]URL:http://wwwmicro.deis.unibo.it/~magagni/amba99.pdf
-
 [2]ARM, “AMBA Specification Overview”, available at http://www.arm.com/.
 [3]ARM, “AMBA Specification (Rev 2.0)”, available at http://www.arm.com.
 [4]URL:http://www.differencebetween.net/techno logy/difference-between-ahb-and-apb
