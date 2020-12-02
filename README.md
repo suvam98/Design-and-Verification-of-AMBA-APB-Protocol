@@ -152,7 +152,9 @@
 
 [4]URL:[click here](http://www.differencebetween.net/techno logy/difference-between-ahb-and-apb)
 
-[5]Samir Palnitkar, “Verilog HDL: A guide to Digital Design and Synthesis (2nd Edition), Pearson, 2008. 
+[5]Samir Palnitkar, “Verilog HDL: A guide to Digital Design and Synthesis (2nd Edition), Pearson, 2008.
+
+
  
 
  
