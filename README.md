@@ -16,8 +16,8 @@
  - [Simulation result](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#simulation-result) 
  - [Conclusion](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#conclusion)
  - [Future work](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#future-work)    
- - [Acknowledgement]()
- - [References]()
+ - [Acknowledgement](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#acknowledgement)
+ - [References](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#references)
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
 
@@ -143,17 +143,11 @@
 - Mr. Santunu Sarangi, Assistant Professor, Silicon Institute of Technology, Bhubaneswar
 
 ## References
-[1]URL:http://wwwmicro.deis.unibo.it/~magagni/
-amba99.pdf
-[2]ARM, “AMBA Specification Overview”,
-available at http://www.arm.com/.
-[3] ARM, “AMBA Specification (Rev 2.0)”,
-available at http://www.arm.com.
-[4]URL:http://www.differencebetween.net/techno
-logy/difference-between-ahb-and-apb
-[5] Samir Palnitkar, “Verilog HDL: A guide to
-Digital Design and Synthesis (2nd Edition),
-Pearson, 2008.
+[1]URL:http://wwwmicro.deis.unibo.it/~magagni/amba99.pdf
+[2]ARM, “AMBA Specification Overview”, available at http://www.arm.com/.
+[3] ARM, “AMBA Specification (Rev 2.0)”, available at http://www.arm.com.
+[4]URL:http://www.differencebetween.net/techno logy/difference-between-ahb-and-apb
+[5] Samir Palnitkar, “Verilog HDL: A guide to Digital Design and Synthesis (2nd Edition), Pearson, 2008.
 [6] URL:http://www.testbench.com.  
  
 
