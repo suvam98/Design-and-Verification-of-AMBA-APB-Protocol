@@ -13,7 +13,7 @@
  - [Design and operating states of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-and-operating-states-of-apb)
    * [Write operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation)
    * [Read operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation-1)
- - [Simulation result]()     
+ - [Simulation result](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#simulation-result)     
  
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
