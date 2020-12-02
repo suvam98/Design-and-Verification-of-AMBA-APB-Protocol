@@ -14,7 +14,8 @@
    * [Write operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation)
    * [Read operation](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#write-operation-1)
  - [Simulation result](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#simulation-result) 
- - [Conclusion](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#conclusion)    
+ - [Conclusion](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#conclusion)
+ - [Future work]()    
  
  ## Introduction of AMBA
  - Advanced Micro controller Bus Architecture (AMBA) is an open-standard that outlines how to connect and manage the different components or blocks within an SoC.
@@ -131,6 +132,9 @@
 - The APB bus is designed using the Verilog HDL according to the specification and is verified using EDAplayground. 
 - The simulation results show that the data read from a  particular memory location is same as the data written to the given memory location. Hence, the design is functionally correct.
 
+## Future work
+
+- To verify the above design using **system verilog**.
  
 
  
