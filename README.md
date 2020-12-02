@@ -81,7 +81,7 @@
 
  ### APB Block Diagram
 
- ![Img2](https://user-images.githubusercontent.com/69890373/100778984-b6cd1b80-342d-11eb-9816-2fda2fc16dff.png)
+![image](https://user-images.githubusercontent.com/69890373/100849030-f89aa800-34a7-11eb-81c7-fd4a40170dcf.png)
 
  ### Signal Descriptions of APB
 
