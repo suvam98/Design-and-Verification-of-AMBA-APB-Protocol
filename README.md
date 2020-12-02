@@ -102,9 +102,6 @@
 
 ![Img3](https://user-images.githubusercontent.com/69890373/100839325-0a754e80-349a-11eb-862c-79a6a0d62c84.png)
 
-
-![image](https://user-images.githubusercontent.com/69890373/100850885-75c71c80-34aa-11eb-93cc-fc957e14d8a7.png)
-
 - **IDLE** is the normal state of the APB. When a transfer is necessary the bus relocates into the SETUP state, where the suitable select signal, **PSELn**, is asserted.
 - The bus only waits in the SETUP state for one clock cycle and always moves to the ACCESS state on the next rising edge of the clock.
 - **ACCESS** will enable signal, **PENABLE**, is asserted in the ACCESS state.
@@ -146,12 +143,12 @@
 - Mr. Santunu Sarangi, Assistant Professor, Silicon Institute of Technology, Bhubaneswar
 
 ## References
-[1]URL:http://wwwmicro.deis.unibo.it/~magagni/amba99.pdf.
-[2]ARM, “AMBA Specification Overview”, available at http://www.arm.com/.
-[3]ARM, “AMBA Specification (Rev 2.0)”, available at http://www.arm.com.
-[4]URL:http://www.differencebetween.net/techno logy/difference-between-ahb-and-apb
+[1]URL:[click here](http://wwwmicro.deis.unibo.it/~magagni/amba99.pdf)
+[2]ARM, “AMBA Specification Overview”, available at [URL](http://www.arm.com/)
+[3]ARM, “AMBA Specification (Rev 2.0)”, available at [URL](http://www.arm.com)
+[4]URL:[click here](http://www.differencebetween.net/techno logy/difference-between-ahb-and-apb)
 [5]Samir Palnitkar, “Verilog HDL: A guide to Digital Design and Synthesis (2nd Edition), Pearson, 2008.
-[6]URL:http://www.testbench.com.  
+[6]URL:[click here](http://www.testbench.com)  
  
 
  
