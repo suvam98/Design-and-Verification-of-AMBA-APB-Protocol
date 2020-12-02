@@ -123,6 +123,9 @@
 - At the clock edge T2, (ACCESS cycle), the PENABLE, PREADY are asserted and PRDATA is also read during this phase. The slave must provide the data before the end of the read transfer.
 
 ## Simulation result
+
+![image](https://user-images.githubusercontent.com/69890373/100843927-16184380-34a1-11eb-9252-f88b465c880e.png)
+
  
 
  
