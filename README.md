@@ -102,8 +102,8 @@
 
 ![Img3](https://user-images.githubusercontent.com/69890373/100839325-0a754e80-349a-11eb-862c-79a6a0d62c84.png)
 
-[img7.pdf](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol/files/5627961/img7.pdf)
 
+![image](https://user-images.githubusercontent.com/69890373/100850885-75c71c80-34aa-11eb-93cc-fc957e14d8a7.png)
 
 - **IDLE** is the normal state of the APB. When a transfer is necessary the bus relocates into the SETUP state, where the suitable select signal, **PSELn**, is asserted.
 - The bus only waits in the SETUP state for one clock cycle and always moves to the ACCESS state on the next rising edge of the clock.
