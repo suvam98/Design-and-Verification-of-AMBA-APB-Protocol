@@ -7,7 +7,7 @@
    * [Types of AMBA Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#types-of-amba-bus)
    * [AMBA AHB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-ahb)
    * [AMBA ASB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-asb)
- - [Advance Peripheral Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#advance-peripheral-bus)
+ - [Advanced Peripheral Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#advance-peripheral-bus)
    * [APB Block Diagram](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#apb-block-diagram)
    * [Signal Descriptions of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#signal-descriptions-of-apb) 
  - [Design and operating states of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-and-operating-states-of-apb)
@@ -31,9 +31,9 @@
  
  In 2003, ARM introduced the third generation, AMBA 3, including Advanced eXtensible Interface (AXI) to reach even higher performance interconnect and the Advanced Trace Bus (ATB) as part of the CoreSight on-chip debug and trace solution. 
 
- In 2010 the AMBA 4 specifications were introduced starting with AMBA 4 AXI4, then in 2011[2] extending system-wide coherency with AMBA 4 AXI Coherency Extensions (ACE). 
+ In 2010 the AMBA 4 specifications were introduced starting with AMBA 4 AXI4, then in 2011 extending system-wide coherency with AMBA 4 AXI Coherency Extensions (ACE). 
 
- In 2013[3] the AMBA 5 Coherent Hub Interface (CHI) specification was introduced, with a re-designed high-speed transport layer and features designed to reduce congestion.
+ In 2013 the AMBA 5 Coherent Hub Interface (CHI) specification was introduced, with a re-designed high-speed transport layer and features designed to reduce congestion.
 
  ## Design principles
  An important aspect of an SoC is not only which components or blocks it houses, but also how they interconnect. AMBA is a solution for the blocks to interface with each other.
@@ -69,12 +69,12 @@
  ### AMBA ASB
  The Advanced System Bus (ASB) specification defines a high-performance bus that can be used in the design of high performance 16 and 32-bit embedded microcontrollers. It supports the efficient connection of processors, on-chip memories and off chip external memory interfaces with low-power peripheral macro cell functions. The bus also provides the test infrastructure for modular macro cell test and diagnostic access. 
  
- ## Advance Peripheral Bus
+ ## Advanced Peripheral Bus
  - Advanced Peripheral Bus (APB) is the part of Advanced Microcontroller Bus Architecture (AMBA) family protocols. 
  - It defines a low-cost interface that is optimized for minimal power consumption and reduced interface complexity.
  - The APB protocol is not pipelined, use it to connect to low-bandwidth peripherals that do not require the high performance of the AXI protocol.
  - The APB protocol relates a signal transition to the rising edge of the clock, to simplify the integration of APB peripherals into any design flow. Every transfer takes at least two cycles.
- - The APB can interface with the AMBA Advanced High-performance Bus Lite (AHB-Lite) and AMBA Advanced Extensible Interface (AXI). You can use it to provide access to the programmable control registers of peripheral devices. 
+ - The APB can interface with the AMBA Advanced High-performance Bus Lite (AHB-Lite) and AMBA Advanced Extensible Interface (AXI). we can use it to provide access to the programmable control registers of peripheral devices. 
  - The AMBA APB appears as a local secondary bus that is encapsulated as a single AHB or ASB slave device.
  -  APB protocol uses massive memory-I/O accesses.
  - In APB protocol consist of single master device and multiple slave device.
