@@ -7,7 +7,7 @@
    * [Types of AMBA Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#types-of-amba-bus)
    * [AMBA AHB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-ahb)
    * [AMBA ASB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#amba-asb)
- - [Advanced Peripheral Bus](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#advance-peripheral-bus)
+ - [Advanced Peripheral Bus](https://github.com/suvam98/Design-and-Verification-of-AMBA-APB-Protocol#advanced-peripheral-bus)
    * [APB Block Diagram](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#apb-block-diagram)
    * [Signal Descriptions of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#signal-descriptions-of-apb) 
  - [Design and operating states of APB](https://github.com/suvam98/Design-Verification-of-AMBA-APB-Protocol#design-and-operating-states-of-apb)
